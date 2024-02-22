@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block titulo %}Aplicativo Libros{% endblock  %}
+{% block modulo_name %}Aplicativo de Libros{% endblock  %}
+
+{% block contenido %}
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenido al sitio de libreria..!</h1>
+    <p class="lead">Sistema en DJango.</p>
+    <hr class="my-4">
+    <a class="btn btn-primary btn-lg" href="{% url 'libros' %}" role="button">Empezar</a>
+</div>
+
+{% endblock contenido %}
